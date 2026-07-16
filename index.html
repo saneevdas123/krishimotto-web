@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KrishiMotto™ — Empowered to Aspire</title>
+<meta name="description" content="KrishiMotto is a one-stop agri super-app that turns a farmer's harvest into a verifiable, financeable warehouse receipt — bound by QR trust-deeds, on-chain smart contracts and live IoT telemetry." />
+<link rel="icon" type="image/png" href="assets/img/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap navrow">
+    <a class="brand" href="index.html" aria-label="KrishiMotto home">
+      <img src="assets/img/logo-mark.png" alt="KrishiMotto" />
+      <span class="wordmark"><span class="k">Krishi</span><span class="m">Motto</span><span class="tm">™</span></span>
+    </a>
+    <nav class="navlinks">
+      <a href="#concept">Concept</a>
+      <a href="#app">The App</a>
+      <a href="#journey">The Loop</a>
+      <a href="#trust">Trust</a>
+      <a href="#build">Under the hood</a>
+    </nav>
+    <div class="navtools">
+      <button class="toggle" id="themeToggle" aria-label="Switch day / night mode" title="Switch day / night">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="toggle menu-btn" id="menuBtn" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="mobilemenu" id="mobilemenu">
+  <a href="#concept">Concept</a><a href="#app">The App</a><a href="#journey">The Loop</a>
+  <a href="#trust">Trust</a><a href="#build">Under the hood</a>
+  <a href="delete-account.html">Delete account</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+    <span class="particle" style="width:9px;height:9px;left:12%;bottom:22%;animation-duration:9s"></span>
+    <span class="particle" style="width:7px;height:7px;left:26%;bottom:12%;animation-duration:11s;animation-delay:1.4s"></span>
+    <span class="particle" style="width:11px;height:11px;left:44%;bottom:18%;animation-duration:8.5s;animation-delay:.7s"></span>
+    <span class="particle" style="width:6px;height:6px;left:63%;bottom:10%;animation-duration:12s;animation-delay:2.1s"></span>
+    <span class="particle" style="width:9px;height:9px;left:78%;bottom:26%;animation-duration:10s;animation-delay:1s"></span>
+    <span class="particle" style="width:7px;height:7px;left:88%;bottom:15%;animation-duration:9.5s;animation-delay:2.6s"></span>
+  </div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Agri super-app · Krishiaadhar platform</span>
+      <p class="tagline">Empowered to Aspire</p>
+      <h1>Turn a harvest into<br><span class="em">verifiable, financeable</span> stock.</h1>
+      <p class="lead">KrishiMotto is a one-stop app where a farmer maps their land, books science-backed farm services, and stores their harvest in a licensed warehouse — where it becomes a QR-anchored, on-chain warehouse receipt they can pledge for credit, proven in real time by IoT sensors.</p>
+      <div class="chips">
+        <span class="chip"><b>◆</b> QR trust-deed receipts</span>
+        <span class="chip"><b>◆</b> Sepolia smart contracts</span>
+        <span class="chip"><b>◆</b> IoT (BME680) telemetry</span>
+        <span class="chip"><b>◆</b> Multilingual AI</span>
+      </div>
+      <div class="cta">
+        <a href="#app" class="btn btn-primary">See the app
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <span class="livedot"><i></i> krishiaadhar.gramtarang.org</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="halo"></div>
+      <div class="ring"></div><div class="ring r2"></div>
+      <picture>
+        <source srcset="assets/img/logo-full.webp" type="image/webp">
+        <img class="hero-logo" src="assets/img/logo-full.png" alt="KrishiMotto — an Indian farmer beside a tricolour sapling, with the KrishiMotto wordmark" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+<!-- CONCEPT -->
+<section class="section" id="concept">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">The concept</span>
+      <h2>One app for the farmer.<br>A trust layer for everyone else.</h2>
+      <p class="sub">The journey runs in four beats. Each one leaves behind a piece of verifiable proof, so that by the time a farmer asks for credit, the collateral has already told its own story.</p>
+    </div>
+    <div class="beats">
+      <div class="beat reveal" data-d="0" style="--bc:var(--green)"><span class="step mono">01</span><div class="ic" style="background:var(--green)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 4 13c0-6 7-9 15-9 0 8-3 15-9 15-2 0-3-1-3-1"/><path d="M8 16c2-4 5-6 8-7"/></svg></div><h3>Grow</h3><p>Map land, then book AI-assisted, multilingual services — crop calendars, drone spray, multispectral &amp; hyperspectral health scans, expert visits.</p></div>
+      <div class="beat reveal" data-d="1" style="--bc:var(--amber)"><span class="step mono">02</span><div class="ic" style="background:var(--amber)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h3>Store</h3><p>Harvest goes to a licensed warehouse. On intake, a QR trust-deed and an on-chain receipt digitise the exact stock that was weighed in.</p></div>
+      <div class="beat reveal" data-d="2" style="--bc:var(--slate)"><span class="step mono">03</span><div class="ic" style="background:var(--slate)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0M8 16a6 6 0 0 1 8 0"/><circle cx="12" cy="19.5" r="1.2" fill="currentColor" stroke="none"/></svg></div><h3>Prove</h3><p>A BME680 IoT device in the storage bay streams temperature, humidity, pressure and gas — continuously proving the collateral is real and intact.</p></div>
+      <div class="beat reveal" data-d="3" style="--bc:var(--plum)"><span class="step mono">04</span><div class="ic" style="background:var(--plum)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 14l-2-2a2 2 0 0 0-3 3l5 5 8-4V6l-4 2"/><path d="M14 8l-3 3"/></svg></div><h3>Finance</h3><p>The farmer pledges the receipt; a lender verifies KYC and the live collateral on-chain, then disburses or rejects — a decision, never an assumption.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SURFACES -->
+<section class="section alt" id="surfaces">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">The system</span>
+      <h2>Four surfaces, one backend, one ledger</h2>
+      <p class="sub">Every actor gets a purpose-built surface. All four speak to one Krishiaadhar backend — Node.js, Express, MongoDB — over a role-scoped REST API, and share the same on-chain trust layer.</p>
+    </div>
+    <div class="surfaces">
+      <div class="surf reveal" data-d="0" style="--sc:var(--green)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2.4"/><path d="M11 18h2"/></svg></div>
+        <div><h3>Farmer App</h3><div class="role">ANDROID · FARMER &amp; AGRI-EXPERT</div>
+        <p>The farmer's window to everything: onboard, map land, book services, store crop and raise credit — in their own language.</p>
+        <ul><li>GPS field mapping &amp; AI advisory</li><li>Eight on-demand services</li><li>Digital receipts &amp; on-chain credit</li></ul></div>
+      </div>
+      <div class="surf reveal" data-d="1" style="--sc:var(--slate)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
+        <div><h3>Admin Portal</h3><div class="role">WEB · PLATFORM OPERATOR</div>
+        <p>The operator's console. It configures the app itself, verifies identities, and provisions the warehouses and lenders the network runs on.</p>
+        <ul><li>Service catalog &amp; expert KYC</li><li>Warehouse &amp; lender onboarding</li><li>Smart-contract &amp; IoT oversight</li></ul></div>
+      </div>
+      <div class="surf reveal" data-d="0" style="--sc:var(--amber)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l9-5 9 5v12"/><path d="M3 21h18M8 21v-6h8v6"/></svg></div>
+        <div><h3>Warehouse Portal</h3><div class="role">WEB · WAREHOUSE MANAGER</div>
+        <p>Where produce becomes provable collateral. Staff weigh intake, mint the trust-deed QR and on-chain receipt, and watch the bay live.</p>
+        <ul><li>Intake queue &amp; weigh-in</li><li>Trust-deed QR generation</li><li>Live per-bin IoT sensors</li></ul></div>
+      </div>
+      <div class="surf reveal" data-d="1" style="--sc:var(--plum)">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-6 9 6"/><path d="M5 10v8M10 10v8M14 10v8M19 10v8M3 21h18"/></svg></div>
+        <div><h3>Lender Portal</h3><div class="role">WEB · LENDER ADMIN &amp; AGENTS</div>
+        <p>A two-tier workspace. A lender admin manages loan agents, who verify KYC and collateral against the live receipt — then decide.</p>
+        <ul><li>Application &amp; collateral review</li><li>KYC + bank + trust-deed checks</li><li>Approve / disburse or reject</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APP SHOWCASE -->
+<section class="section" id="app">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Inside the app</span>
+      <h2>The whole journey, in the farmer's hand</h2>
+      <p class="sub">From onboarding to on-chain credit — real screens from the KrishiMotto Android app. Hover to pause.</p>
+    </div>
+  </div>
+  <div class="marquee reveal" style="padding-bottom:44px">
+    <div class="marquee-track">
+      <div class="phone"><img src="assets/img/shots/home.jpg" alt="Farmer app home dashboard" loading="lazy"><span class="cap">Home dashboard</span></div>
+      <div class="phone"><img src="assets/img/shots/land.jpg" alt="Mapped land parcels" loading="lazy"><span class="cap">My land</span></div>
+      <div class="phone"><img src="assets/img/shots/calendar.jpg" alt="Crop calendar schedule" loading="lazy"><span class="cap">Crop calendar</span></div>
+      <div class="phone"><img src="assets/img/shots/payment.jpg" alt="Instamoney QR payment" loading="lazy"><span class="cap">QR payment</span></div>
+      <div class="phone"><img src="assets/img/shots/receipts.jpg" alt="Digital receipts" loading="lazy"><span class="cap">Digital receipts</span></div>
+      <div class="phone"><img src="assets/img/shots/tracker.jpg" alt="Crop tracker live IoT" loading="lazy"><span class="cap">Crop tracker</span></div>
+      <div class="phone"><img src="assets/img/shots/credit.jpg" alt="PPACS credit application" loading="lazy"><span class="cap">PPACS credit</span></div>
+      <div class="phone"><img src="assets/img/shots/ai.jpg" alt="KrishiAI assistant" loading="lazy"><span class="cap">KrishiAI</span></div>
+      <!-- duplicate for seamless loop -->
+      <div class="phone" aria-hidden="true"><img src="assets/img/shots/home.jpg" alt="" loading="lazy"><span class="cap">Home dashboard</span></div>
+      <div class="phone" aria-hidden="true"><img src="assets/img/shots/land.jpg" alt="" loading="lazy"><span class="cap">My land</span></div>
+      <div class="phone" aria-hidden="true"><img src="assets/img/shots/calendar.jpg" alt="" loading="lazy"><span class="cap">Crop calendar</span></div>
+      <div class="phone" aria-hidden="true"><img src="assets/img/shots/payment.jpg" alt="" loading="lazy"><span class="cap">QR payment</span></div>
+      <div class="phone" aria-hidden="true"><img src="assets/img/shots/receipts.jpg" alt="" loading="lazy"><span class="cap">Digital receipts</span></div>
+      <div class="phone" aria-hidden="true"><img src="assets/img/shots/tracker.jpg" alt="" loading="lazy"><span class="cap">Crop tracker</span></div>
+      <div class="phone" aria-hidden="true"><img src="assets/img/shots/credit.jpg" alt="" loading="lazy"><span class="cap">PPACS credit</span></div>
+      <div class="phone" aria-hidden="true"><img src="assets/img/shots/ai.jpg" alt="" loading="lazy"><span class="cap">KrishiAI</span></div>
+    </div>
+  </div>
+  <div class="wrap"><p class="shot-note reveal">Multilingual by design — the entire UI switches language on the fly across Hindi, Odia, Telugu, Tamil and English.</p></div>
+</section>
+
+<!-- JOURNEY -->
+<section class="section alt" id="journey">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">The core loop</span>
+      <h2>From stored grain to a disbursed loan</h2>
+      <p class="sub">A single farmer action ripples across all four surfaces, the payment rail, the IoT device and the blockchain. This is the journey the whole platform exists to enable.</p>
+    </div>
+    <div class="rail-wrap reveal">
+      <div class="rail">
+        <div class="rail-line"></div><div class="seed"></div>
+        <div class="node" style="--nc:var(--green)"><div class="dot"><span class="n">1</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h4>Store &amp; pay</h4><p>Farmer requests storage and pays the per-kg fee by Instamoney QR.</p></div>
+        <div class="node" style="--nc:var(--amber)"><div class="dot"><span class="n">2</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="13" height="18" rx="2"/><path d="M8 8h5M8 12h5"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg></div><h4>Intake + QR deed</h4><p>Warehouse weighs the produce and prints a trust-deed QR onto the bags.</p></div>
+        <div class="node" style="--nc:var(--gold)"><div class="dot"><span class="n">3</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M8.5 12.5l-2 2a3.5 3.5 0 0 0 5 5l2-2"/><path d="M15.5 11.5l2-2a3.5 3.5 0 0 0-5-5l-2 2"/></svg></div><h4>On-chain receipt</h4><p>A digitised receipt (KAC-…) is anchored on the Sepolia ledger.</p></div>
+        <div class="node" style="--nc:var(--slate)"><div class="dot"><span class="n">4</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0M8 16a6 6 0 0 1 8 0"/><circle cx="12" cy="19.5" r="1.2" fill="currentColor" stroke="none"/></svg></div><h4>IoT proof</h4><p>A BME680 sensor streams live conditions straight onto the receipt.</p></div>
+        <div class="node" style="--nc:var(--green2)"><div class="dot"><span class="n">5</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 11v3M8 12a4 4 0 0 1 8 0v2a6 6 0 0 0 1 3"/><path d="M5 13a7 7 0 0 1 14 0v1M7 19a10 10 0 0 0 1-4"/></svg></div><h4>KYC + pledge</h4><p>Farmer completes KYC and pledges the receipt as on-chain collateral.</p></div>
+        <div class="node" style="--nc:var(--plum)"><div class="dot"><span class="n">6</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 14l-2-2a2 2 0 0 0-3 3l5 5 8-4V6l-4 2"/><path d="M14 8l-3 3"/></svg></div><h4>Verify &amp; decide</h4><p>A loan agent verifies KYC and collateral, then disburses or rejects.</p></div>
+      </div>
+    </div>
+    <div class="oversight reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+      <p><b>Admin oversight throughout.</b> The platform provisioned the warehouse and lender, and sees every booking, receipt, sensor reading, collateral pledge and disbursement — each carrying its own blockchain transaction hash for audit.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ARCHITECTURE -->
+<section class="section" id="architecture">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">How data flows</span>
+      <h2>One modular backend serves them all</h2>
+      <p class="sub">Client surfaces call a single role-scoped REST API. Behind it, the backend orchestrates persistence, payments, KYC, the blockchain relayer, IoT ingest and AI.</p>
+    </div>
+    <div class="arch reveal">
+      <div class="tier-label">Client surfaces</div>
+      <div class="clients">
+        <div class="cnode" style="--cc:var(--green)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2.4"/><path d="M11 18h2"/></svg></div>Farmer App</div>
+        <div class="cnode" style="--cc:var(--slate)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>Admin Portal</div>
+        <div class="cnode" style="--cc:var(--amber)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l9-5 9 5v12"/><path d="M3 21h18M8 21v-6h8v6"/></svg></div>Warehouse Portal</div>
+        <div class="cnode" style="--cc:var(--plum)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-6 9 6"/><path d="M5 10v8M10 10v8M14 10v8M19 10v8M3 21h18"/></svg></div>Lender Portal</div>
+      </div>
+      <div class="arrows"><span></span><span></span><span></span><span></span></div>
+      <div class="apibar">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M12 12H6v4M12 12h6v4"/></svg></div>
+        <div><b>Krishiaadhar REST API</b><code>/farmer · /warehouse · /lender · /admin · /payments · /ai · /webhook</code></div>
+      </div>
+      <div class="downarrow"><span></span></div>
+      <div class="tier-label">Backend services &amp; external rails</div>
+      <div class="rails">
+        <div class="rail-card" style="--rc:var(--slate)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div><b>MongoDB</b><small>farmers · land · bookings · receipts</small></div>
+        <div class="rail-card" style="--rc:var(--green)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3M17 20h4M21 17v4"/></svg></div><b>Instamoney</b><small>QR / UPI payments</small></div>
+        <div class="rail-card" style="--rc:var(--plum)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 11v3M8 12a4 4 0 0 1 8 0v2a6 6 0 0 0 1 3"/><path d="M5 13a7 7 0 0 1 14 0v1M7 19a10 10 0 0 0 1-4"/></svg></div><b>e-KYC</b><small>identity verification</small></div>
+        <div class="rail-card" style="--rc:var(--gold)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M8.5 12.5l-2 2a3.5 3.5 0 0 0 5 5l2-2"/><path d="M15.5 11.5l2-2a3.5 3.5 0 0 0-5-5l-2 2"/></svg></div><b>Blockchain</b><small>ethers.js → Sepolia</small></div>
+        <div class="rail-card" style="--rc:var(--slate)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0M8 16a6 6 0 0 1 8 0"/><circle cx="12" cy="19.5" r="1.2" fill="currentColor" stroke="none"/></svg></div><b>IoT ingest</b><small>POST /webhook · BME680</small></div>
+        <div class="rail-card" style="--rc:var(--amber)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-1 5 3 3 0 0 0 2 5 3 3 0 0 0 4 1V4.5A2 2 0 0 0 9 4z"/><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 1 5 3 3 0 0 1-2 5 3 3 0 0 1-4 1"/></svg></div><b>KrishiMotto AI</b><small>advice · diagnosis</small></div>
+      </div>
+      <p class="archnote">Gasless simulation on the Sepolia test-net today — the same relayer can point at a production EVM chain without changing app logic.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section alt" id="services">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Inside the farmer app</span>
+      <h2>Eight on-demand services</h2>
+      <p class="sub">The home grid is rendered live from the admin's service catalog — titles, icons and service details all come from the backend, and every booking is field-aware.</p>
+    </div>
+    <div class="svcs">
+      <div class="svc reveal" data-d="0"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v3M16 3v3M8 13h3M8 16.5h6"/></svg></div><h4>Crop Calendar</h4><div class="tag">AI-drafted schedule</div><p>An auto-drafted 153-day schedule of five field activities, ready for an expert to review.</p></div>
+      <div class="svc reveal" data-d="1"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9.5 11H5M19 11h-4.5M12 9.5V6M12 18v-3.5"/><circle cx="4" cy="9" r="2"/><circle cx="20" cy="9" r="2"/><circle cx="4" cy="18" r="1.6"/><circle cx="20" cy="18" r="1.6"/></svg></div><h4>Drone Spray</h4><div class="tag">aerial application</div><p>Field-aware aerial spraying matched to your mapped area, with crop type and preferred date.</p></div>
+      <div class="svc reveal" data-d="2"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L19 6a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="12.5" r="3.2"/></svg></div><h4>Crop Health</h4><div class="tag">multispectral</div><p>Multispectral crop-health mapping with an optional technician visit and sampling.</p></div>
+      <div class="svc reveal" data-d="3"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v7l-3.5 7A2.5 2.5 0 0 0 9 20.5h6a2.5 2.5 0 0 0 2.5-3.5L14 10V3"/><path d="M8 14h8"/></svg></div><h4>Soil Health</h4><div class="tag">hyperspectral</div><p>Hyperspectral soil scanning for nutrient insights and tailored fertiliser advice.</p></div>
+      <div class="svc reveal" data-d="0"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></div><h4>Expert Visit</h4><div class="tag">on-site agronomy</div><p>Book an agri-expert for diagnosis, advisory or inspection, with context captured up-front.</p></div>
+      <div class="svc reveal" data-d="1"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 14l-2-2a2 2 0 0 0-3 3l5 5 8-4V6l-4 2"/><path d="M14 8l-3 3"/></svg></div><h4>PPACS Credit</h4><div class="tag">on-chain collateral</div><p>Pledge a stored-produce receipt as collateral and apply for cooperative credit.</p></div>
+      <div class="svc reveal" data-d="2"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div><h4>Crop Storage</h4><div class="tag">licensed warehouse</div><p>Reserve space at a licensed warehouse; valuation payout follows intake verification.</p></div>
+      <div class="svc reveal" data-d="3"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0M8 16a6 6 0 0 1 8 0"/><circle cx="12" cy="19.5" r="1.2" fill="currentColor" stroke="none"/></svg></div><h4>Crop Tracker</h4><div class="tag">live IoT</div><p>Watch live storage conditions for opted-in harvests — verified and anchored.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section class="section" id="trust">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Why it can be trusted</span>
+      <h2>Three independent proofs on every receipt</h2>
+      <p class="sub">Warehouse-receipt finance lives or dies on trust in the collateral. KrishiMotto layers three tamper-evident proofs, so a lender never takes the stock on faith.</p>
+    </div>
+    <div class="trust-grid">
+      <div class="proofs">
+        <div class="proof reveal" data-d="0" style="--pc:var(--amber)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="13" height="18" rx="2"/><path d="M8 8h5M8 12h5"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg></div><div><h4>QR trust-deed</h4><p>A physical QR pasted onto the storage bags resolves to a public receipt page — binding the real sack to its digital twin.</p></div></div>
+        <div class="proof reveal" data-d="1" style="--pc:var(--gold)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M8.5 12.5l-2 2a3.5 3.5 0 0 0 5 5l2-2"/><path d="M15.5 11.5l2-2a3.5 3.5 0 0 0-5-5l-2 2"/></svg></div><div><h4>On-chain receipt</h4><p>The receipt, collateral pledge, disbursement and KYC are anchored on an EVM chain (Sepolia), each with a transaction hash.</p></div></div>
+        <div class="proof reveal" data-d="2" style="--pc:var(--slate)"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0M8 16a6 6 0 0 1 8 0"/><circle cx="12" cy="19.5" r="1.2" fill="currentColor" stroke="none"/></svg></div><div><h4>IoT telemetry</h4><p>A BME680 device streams temperature, humidity, pressure and gas over a webhook — continuously proving the stock exists and is intact.</p></div></div>
+      </div>
+      <div class="receipt reveal" data-d="1">
+        <span class="tag">Smart contract · digitised receipt</span>
+        <h3>Warehouse Trust Deed</h3>
+        <div class="rrow"><span>Receipt</span><b>KAC-2026-273741</b></div>
+        <div class="rrow"><span>Stored</span><b>5 kg · free to pledge</b></div>
+        <div class="rrow"><span>Anchor hash</span><b>0xa4f0c41c…baed43</b></div>
+        <div class="rrow"><span>Network</span><b>sepolia</b></div>
+        <div class="rrow"><span>Live bin</span><b>B-12 · 27°C · 68.7%</b></div>
+        <div class="qr">
+          <div class="box"><svg viewBox="0 0 40 40" fill="#EAF2EA"><rect x="3" y="3" width="11" height="11" rx="1.5"/><rect x="6" y="6" width="5" height="5" fill="#0B1D14"/><rect x="26" y="3" width="11" height="11" rx="1.5"/><rect x="29" y="6" width="5" height="5" fill="#0B1D14"/><rect x="3" y="26" width="11" height="11" rx="1.5"/><rect x="6" y="29" width="5" height="5" fill="#0B1D14"/><rect x="18" y="3" width="3" height="3"/><rect x="18" y="8" width="3" height="3"/><rect x="18" y="18" width="3" height="3"/><rect x="24" y="18" width="3" height="3"/><rect x="30" y="18" width="3" height="3"/><rect x="18" y="24" width="3" height="3"/><rect x="34" y="24" width="3" height="3"/><rect x="24" y="24" width="4" height="4"/><rect x="31" y="30" width="3" height="3"/><rect x="18" y="30" width="3" height="3"/><rect x="24" y="33" width="3" height="3"/><rect x="34" y="34" width="3" height="3"/></svg></div>
+          <small>Scan resolves to the public receipt<b>…/v/r/c8emji</b></small>
+        </div>
+      </div>
+    </div>
+    <div class="gate reveal">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 11v3M8 12a4 4 0 0 1 8 0v2a6 6 0 0 0 1 3"/><path d="M5 13a7 7 0 0 1 14 0v1M7 19a10 10 0 0 0 1-4"/></svg></div>
+      <p><b>…and a human decision gate.</b> Before any money moves, the farmer must complete e-KYC, and a lender agent independently verifies identity, bank details and the live collateral. Approval writes an on-chain disbursement record; rejection closes the request. Credit is proven, then decided — never automatic.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BUILD / STACK -->
+<section class="section alt" id="build">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Under the hood</span>
+      <h2>A pragmatic, production-oriented stack</h2>
+      <p class="sub">One backend and one API power four surfaces, with the blockchain relayer, IoT ingest, KYC and payments as pluggable rails.</p>
+    </div>
+    <div class="stack">
+      <div class="stackcol reveal" data-d="0" style="--kc:var(--green)"><div class="cap">Client</div><ul>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2.4"/><path d="M11 18h2"/></svg></span>Android farmer app</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></span>React web consoles</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg></span>Multilingual UI</li></ul></div>
+      <div class="stackcol reveal" data-d="1" style="--kc:var(--slate)"><div class="cap">Backend</div><ul>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M12 12H6v4M12 12h6v4"/></svg></span>Node.js · Express</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/></svg></span>MongoDB</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M12 12H6v4M12 12h6v4"/></svg></span>Role-scoped REST API</li></ul></div>
+      <div class="stackcol reveal" data-d="2" style="--kc:var(--plum)"><div class="cap">Trust &amp; data</div><ul>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M8.5 12.5l-2 2a3.5 3.5 0 0 0 5 5l2-2"/><path d="M15.5 11.5l2-2a3.5 3.5 0 0 0-5-5l-2 2"/></svg></span>ethers.js · Sepolia</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="13" height="18" rx="2"/><path d="M8 8h5M8 12h5"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg></span>QR trust-deeds</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5a10 10 0 0 1 14 0M8 16a6 6 0 0 1 8 0"/><circle cx="12" cy="19.5" r="1.2" fill="currentColor" stroke="none"/></svg></span>IoT webhook · BME680</li></ul></div>
+      <div class="stackcol reveal" data-d="3" style="--kc:var(--amber)"><div class="cap">Services</div><ul>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3M17 20h4M21 17v4"/></svg></span>Instamoney (QR/UPI)</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 11v3M8 12a4 4 0 0 1 8 0v2a6 6 0 0 0 1 3"/><path d="M5 13a7 7 0 0 1 14 0v1M7 19a10 10 0 0 0 1-4"/></svg></span>e-KYC</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-1 5 3 3 0 0 0 2 5 3 3 0 0 0 4 1V4.5A2 2 0 0 0 9 4z"/><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 1 5 3 3 0 0 1-2 5 3 3 0 0 1-4 1"/></svg></span>KrishiMotto AI</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- BRAND CTA -->
+<section class="section">
+  <div class="wrap">
+    <div class="brandcta reveal">
+      <div class="blobx"></div>
+      <div style="position:relative">
+        <span class="eyebrow" style="color:var(--green2)">Empowered to Aspire</span>
+        <h2>A working, end-to-end agri-fintech rail.</h2>
+        <p>One app grows, stores and finances a farmer's harvest. One receipt — QR-anchored, on-chain and IoT-verified — turns that harvest into a tamper-evident, financeable asset. Four surfaces interoperate over one backend and one ledger.</p>
+        <span class="dom"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-2 2a5 5 0 0 0 7 7l1-1"/></svg> krishiaadhar.gramtarang.org</span>
+      </div>
+      <picture>
+        <source srcset="assets/img/logo-full.webp" type="image/webp">
+        <img src="assets/img/logo-full.png" alt="KrishiMotto brand lockup" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html"><img src="assets/img/logo-mark.png" alt="KrishiMotto"/><span class="wordmark"><span class="k">Krishi</span><span class="m">Motto</span><span class="tm">™</span></span></a>
+        <p>A one-stop agri super-app that turns a farmer's harvest into verifiable, financeable stock — grow, store, prove, finance.</p>
+        <p class="tagline">Empowered to Aspire</p>
+      </div>
+      <div class="foot-col">
+        <h5>Explore</h5>
+        <a href="#concept">Concept</a>
+        <a href="#app">The App</a>
+        <a href="#journey">The Loop</a>
+        <a href="#trust">Trust layer</a>
+        <a href="#build">Under the hood</a>
+      </div>
+      <div class="foot-col">
+        <h5>Legal &amp; account</h5>
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="delete-account.html">Delete account</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© <span data-year>2026</span> KrishiMotto™ · Made in India for the farmer.</p>
+      <div class="tri" aria-hidden="true"><i style="background:var(--saffron)"></i><i style="background:var(--indigo)"></i><i style="background:var(--green2)"></i></div>
+    </div>
+  </div>
+</footer>
+
+<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
