@@ -9,7 +9,8 @@ No build step, no dependencies — plain HTML, CSS and vanilla JavaScript.
 
 | File | Purpose |
 |---|---|
-| `index.html` | Main site — concept, surfaces, app screenshots, the core loop, architecture, services, trust layer, stack |
+| `index.html` | Main site — story, concept, surfaces, app screenshots, download, the core loop, architecture, services, trust layer, stack |
+| `about.html` | About Us — GT Tech + MSSSoA, our agri interventions, how the idea came about, **The Story Behind the Logo**, download |
 | `terms.html` | Terms & Conditions |
 | `privacy.html` | Privacy Policy |
 | `contact.html` | Contact Us — details, enquiry form and embedded map |
@@ -20,6 +21,7 @@ No build step, no dependencies — plain HTML, CSS and vanilla JavaScript.
 ```
 .
 ├── index.html
+├── about.html
 ├── terms.html
 ├── privacy.html
 ├── contact.html
@@ -77,6 +79,29 @@ then point a DNS `CNAME` record at `<your-user>.github.io`.
 - **Animations** respect `prefers-reduced-motion` — they're fully disabled for users who ask for that.
 - **The delete-account form is front-end only.** It validates input and shows a confirmation, but there is no backend, so nothing is sent anywhere. To make it live, POST the form data to your API (or a form service) from the submit handler in `assets/js/main.js`.
 - The legal pages are good-faith templates that reflect how the platform works — have counsel review them before you rely on them.
+
+## App store links (currently "Coming Soon")
+
+The Google Play and App Store badges on `index.html` (`#download`) and `about.html` are
+inert placeholders — they render as **Coming soon** and are not clickable.
+
+To activate them at launch, swap each `<span class="store" ...>` for an anchor and
+change the label:
+
+```html
+<a class="store" href="https://play.google.com/store/apps/details?id=YOUR.APP.ID"
+   target="_blank" rel="noopener">
+  <svg ...> ... </svg>
+  <span class="txt"><small>Get it on</small><b>Google Play</b></span>
+</a>
+```
+
+Do the same for the App Store badge with your `https://apps.apple.com/...` URL.
+The badge styling (`.store`) already covers both states, so nothing else needs to change.
+
+> Note: the badges use simplified vector glyphs. Before publishing, you may wish to swap in
+> the official Google Play and Apple App Store badge artwork, which each platform provides
+> under its own brand guidelines.
 
 ## Contact form — one-time setup required
 
